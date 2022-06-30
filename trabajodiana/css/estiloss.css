@@ -1,0 +1,329 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color:  rgb(243, 217, 210)5;
+    height: auto;
+}
+
+p{
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h5{
+    /* width: 50%; margin:0; */
+    box-sizing: border-box;
+    float: left;
+}
+
+.titul
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 780%;
+    height: auto;
+    text-align:center;
+    justify-content:center;
+    vertical-align:top;
+    color:rgb(120, 82, 57);
+    padding: 1%;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.subtitulosss
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.785);
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.h{
+    /* width: 50%; margin:0; */
+    box-sizing: border-box;
+    float: left;
+}
+h2 {
+    /* width: 50%; margin:0; */
+    box-sizing: border-box;
+    float: none;
+    color: peachpuff;
+    height: auto;
+    text-align:center;
+    justify-content:center;
+    vertical-align:top;
+}
+
+
+
+.subtitulooo{
+    font-family: 'Times New Roman', Times, serif;
+}
+ body{ 
+    background-color: rgb(243, 217, 210);
+}
+div{
+       background-color: white;
+       border: 5px solid rgb(244, 213, 206);
+       padding: 22px;
+       width: 65%;
+       margin: 0 auto;
+       display: flex;
+}
+fieldset{
+  margin-bottom: 12px;
+  background-color: rgb(253, 253, 253);
+  width: auto;
+  border: 3px solid rgba(109, 75, 49, 0.792);
+  padding: 5px;
+  margin: 20px;
+  display:inline-block ;
+  text-align: justify;
+  font-size: larger;
+}
+
+legend{
+   padding: 4px ;
+}
+
+.imgRedonda {
+width:250px;
+height:250px;
+border-radius:150px;
+border: 12px solid white;
+position: initial;
+}
+ .section{ display:block;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head{ margin: 20%;}
+
+.Formato_Pag
+{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: rgba(237, 217, 212, 0.947); */
+}
+
+
+
+
+
+
+.titulo
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align:left;
+    justify-content:center;
+    vertical-align:top;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 1%;
+
+}
+   
+   
+
+.Formato_Pag
+{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: rgba(237, 217, 212, 0.947); */
+}
+
+
+.pie
+{
+    padding: 5%;
+    font-weight: bold;
+    margin: 0 auto;
+    width: auto;
+    font-size: 20px;
+    float:none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(59, 42, 25, 0.852);
+    display: table;
+}
+
+/* footer{
+    width: 100%;
+    align-content: center;
+} */
+
+/* 
+.header{
+    background-color:rgba(244, 225, 218, 0.877);
+    text-align: absolute;
+    padding: 20px;
+    border-radius: 15px;
+    font-family:  serif;
+    font-size: x-large;
+    color: rgb(133, 105, 88);
+} */
+
+/* .contenido{
+    width: 90%;
+    margin: auto;
+    border: 2px white;
+    border-radius: 10px;
+    font-size: 20pt;
+    padding: 10px;
+    margin-top: 5px;
+} */
+/* #sub{
+    color: rgb(177, 48, 48);
+} */
+
+/* .imagen{  
+    width: 94%;
+    margin: auto;
+    border: 2px white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+} */
+
+/* .imagen img
+´{
+    border-radius: 5px;
+    width: -webkit-fill-available;
+} */
+
+/* .imagen2{
+    
+
+    float: right;
+   
+
+} */
+/* .p{
+    
+    font-size: 16pt;
+    color: rgba(92, 64, 49, 0.906);
+    font-family:  serif;
+
+} */
+/* .descripcion{
+
+    font-size: 16pt;
+    color: rgba(92, 64, 49, 0.906);
+    font-family:  serif;
+    } */
+
+/* .posicion{
+    float: right;
+    width: auto;
+    margin: auto;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 10px; 
+    background-color:rgba(244, 225, 218, 0.877);
+    text-align: absolute;
+    padding: 20px;
+    border-radius: 15px;
+    font-family:  serif;
+    font-size: 105%;
+    color: rgba(92, 64, 49, 0.906);
+}    
+   */
+/* .imgs_ind
+    {
+        width: auto;
+        background: rgb(0, 0, 0);
+        font-size: x-large;
+        box-sizing: border-box;
+        float: left;
+              background-color:rgba(209, 165, 149, 0.877);
+        padding: 20px;
+        border-radius: 15px;
+        font-family:  serif;
+    } */
+    /* .foto2posicion */
+
+    /* {
+
+     width: 30%;
+    background: rgb(255, 253, 253);
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+        
+    }   */
+
+
+    
+
+/* .email{
+    border: 2px;
+    display: flex;
+    float: right;
+    background-color:rgba(209, 165, 149, 0.877);
+    text-align: absolute;
+    padding: 20px;
+    border-radius: 15px;
+    font-family:  serif;
+    font-size: x-large;
+} */
+/* .footer{
+    color: rgba(96, 71, 58, 0.906); */
+     /* Like the header, the footer will have a static height - it shouldn't grow or shrink.  */
+   /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+   /* flex: 0 0 auto;
+   background-color: rgb(251, 247, 246);
+   font-size: x-large;
+   text-align: center;
+   padding: 20px;
+   border-width: 130px;
+   width: auto; */
+   
+/* }
+.h2{
+    text-align: center;
+    color: rgba(223, 195, 174, 0.906);
+
+}
+.Titulo_Mov 
+{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: rgba(158, 134, 114, 0.757);
+} */
+
+
+
+    
+
+
+
+
+
+
+
+

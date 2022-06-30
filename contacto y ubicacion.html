@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <body background="imagenes/FONDO 3.png"></body>
+    <head>
+        <meta charset="utf-8">
+        <title>Aquelarre Bar</title>
+        
+      <!--  <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https: //fonts.googleapis.com/css2? family = Playfair + Display: ital, wght @ 1,500 & display = swap "rel =" stylesheet">-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+<body>
+    <div class="Formato_Pag">
+        <header>
+            <div class="logo"><img src="imagenes/LOGO.png"></div>
+              
+            <h1  class="titulo">Aquelarre Bar</h1><br><br>
+            <a href="#" onclick="myFunction()" class="icono"><p class="fa fa-bars"></p></a>
+            <nav id="mimenu" class=" ">
+                <a href="index.html">Home</a>
+                <a href="Reservas.html">Reservas</a>
+                <a href="Galeria.html">Galeria</a>
+                <a href="contacto y ubicacion.html">Contacto y Ubicación</a>
+             
+            </nav>  
+        </header>
+
+        <section><br><h2 class="Titulo_Mov"><marquee>¡Contactanos y Ubicanos Aqui!</marquee></h2> </section>
+
+        <div class="cajaslider">           
+            <img class="mySlides" src="imagenes/wooden-table-looking-out-to-defocussed-room-interior_Slider.jpg" alt="Contacto">
+            <img class="mySlides" src="imagenes/friends-laughing_Slider.jpg" alt="Aquelarre">
+            <img class="mySlides" src="imagenes/Ubicacion_Slider.jpg" alt="Ubicacion">
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+        </div> 
+        
+        <!-- <section class="contenido_contacto">
+            <p>NUESTRO  NUMERO</p>
+            <p>+54 9 880 691 7392</p>
+        </section>    
+        <tr><td><br><br><br></td></tr>
+        <section class="contenido_contacto">
+            <p>ENCUENTRANOS AQUI</p>
+            <p>Encuentranos en el corazon de la ciudad, España 476, San Carlos de Bariloche, Rio Negro, Argentina.</p>
+        </section>     -->
+
+
+        <footer>
+            <p>Mi cuenta  &nbsp |  &nbsp Redes Sociales &nbsp | &nbsp Sofia Andrea Soto</p>
+        </footer>
+    </div>
+    <script>
+        function myFunction() 
+        {
+            var x = document.getElementById("mimenu");
+            if (x.className === " ")
+             {
+                 x.className += " menucelular";
+            }
+            else
+            {
+                x.className = " ";
+            }
+        }
+    </script>
+
+    <!-- Código de JavaScript para Slider -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        function plusDivs(n) 
+        {
+            showDivs(slideIndex += n);
+        }
+        function showDivs(n) 
+        {
+            var i;
+            // acá define qué elemento entra en el slider
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length)
+            {
+                slideIndex = 1
+            }
+            if (n < 1) 
+            {
+                slideIndex = x.length
+            } ;
+            for (i = 0; i < x.length; i++)
+            {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+        carousel();
+        function carousel()
+        {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++)
+            {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length)
+            {
+                slideIndex = 1
+            }
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+        }
+        </script><!-- Fin de Código de JavaScript para Slider -->
+
+</body>
+</html> 
+
+
+
+
